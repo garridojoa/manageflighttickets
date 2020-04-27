@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/manageFlight
+    username: postgres
+    password: p0stgr3s
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+server:
+  port : 8081
